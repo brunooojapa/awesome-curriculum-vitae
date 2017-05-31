@@ -6,8 +6,8 @@
     <meta name="theme-color" content="#95d0fb" />
     <!-- Color mobile tab-->
     <meta name="description" content="Awesome Vitae" />
-    <meta name="keywords" content="#" />
-    <link rel="icon" type="" sizes="16x16" href="">
+    <meta name="keywords" content="" />
+    <link rel="icon" type="image/png" sizes="16x16" href="img/ico/favicon-16x16.png">
     <title>Awesome Curriculum Vitae V1.2.1.</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css' rel="stylesheet" media="all">
@@ -19,43 +19,43 @@
     <!--Base css-->
     <style>
     * {
-        -webkit-transition: 0.5s ease-in;
-        -moz-transition: 0.5s ease-in;
-        -o-transition: 0.5s ease-in;
-        transition: 0.5s ease-in
+        -webkit-transition: 0.2s ease-in;
+        -moz-transition: 0.2s ease-in;
+        -o-transition: 0.2s ease-in;
+        transition: 0.2s ease-in
     }
-
+    
     .col {
         letter-spacing: normal;
         word-spacing: normal;
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
         box-sizing: border-box;
-        -moz-background-clip: padding-box;
-        -webkit-background-clip: padding-box;
-        background-clip: padding-box;
+        -moz-background-clip: padding-box !important;
+        -webkit-background-clip: padding-box !important;
+        background-clip: padding-box !important;
         min-height: 1px;
         text-align: left;
         vertical-align: top;
         float: left
     }
-
+    
     .row {
         text-align: center;
         overflow: hidden;
         clear: left
     }
-
+    
     @media screen and (min-width: 0px) and (max-width: 638px) {
         .col {
-            margin-left: 0;
+            margin-left: 0%;
             padding: 0 2.5%
         }
         .row .col:nth-child(odd) {
             margin-left: 0
         }
         .small-align-left {
-            text-align: left
+            text-align: left !important
         }
         .small-inline {
             display: inline-block
@@ -74,7 +74,7 @@
             width: 100%
         }
     }
-
+    
     @media screen and (min-width: 639px) {
         .row {
             max-width: 980px;
@@ -91,63 +91,58 @@
             width: 11.11111%;
             border-left-width: 0;
             padding: 0 2%;
-            margin-left: 0
+            margin-left: 0%
         }
         .large-2 {
             width: 22.22222%;
             border-left-width: 0;
             padding: 0 2%;
-            margin-left: 0
+            margin-left: 0%
         }
         .large-3 {
             width: 33.33333%;
             border-left-width: 0;
             padding: 0 2%;
-            margin-left: 0
+            margin-left: 0%
         }
         .large-4 {
             width: 44.44444%;
             border-left-width: 0;
             padding: 0 2%;
-            margin-left: 0
+            margin-left: 0%
         }
         .large-5 {
             width: 55.55556%;
             border-left-width: 0;
             padding: 0 2%;
-            margin-left: 0
+            margin-left: 0%
         }
         .large-6 {
             width: 66.66667%;
             border-left-width: 0;
             padding: 0 2%;
-            margin-left: 0
+            margin-left: 0%
         }
         .large-7 {
             width: 77.77778%;
             border-left-width: 0;
             padding: 0 2%;
-            margin-left: 0
+            margin-left: 0%
         }
         .large-8 {
             width: 88.88889%;
             border-left-width: 0;
             padding: 0 2%;
-            margin-left: 0
+            margin-left: 0%
         }
         .large-9 {
             width: 100%;
             border-left-width: 0;
             padding: 0 2%;
-            margin-left: 0
+            margin-left: 0%
         }
     }
-    /*
-    ================
-    Print
-    ================
-    */
-
+    
     @media print {
         .row {
             max-width: 980px;
@@ -164,188 +159,141 @@
             width: 11.11111%;
             border-left-width: 0;
             padding: 0 2%;
-            margin-left: 0
+            margin-left: 0%
         }
         .large-2 {
             width: 22.22222%;
             border-left-width: 0;
             padding: 0 2%;
-            margin-left: 0
+            margin-left: 0%
         }
         .large-3 {
             width: 33.33333%;
             border-left-width: 0;
             padding: 0 2%;
-            margin-left: 0
+            margin-left: 0%
         }
         .large-4 {
             width: 44.44444%;
             border-left-width: 0;
             padding: 0 2%;
-            margin-left: 0
+            margin-left: 0%
         }
         .large-5 {
             width: 55.55556%;
             border-left-width: 0;
             padding: 0 2%;
-            margin-left: 0
+            margin-left: 0%
         }
         .large-6 {
             width: 66.66667%;
             border-left-width: 0;
             padding: 0 2%;
-            margin-left: 0
+            margin-left: 0%
         }
         .large-7 {
             width: 77.77778%;
             border-left-width: 0;
             padding: 0 2%;
-            margin-left: 0
+            margin-left: 0%
         }
         .large-8 {
             width: 88.88889%;
             border-left-width: 0;
             padding: 0 2%;
-            margin-left: 0
+            margin-left: 0%
         }
         .large-9 {
             width: 100%;
             border-left-width: 0;
             padding: 0 2%;
-            margin-left: 0
-        }
-        .primary-color.text {
-            color: #444
-        }
-        .primary-color.fill {
-            fill: #444
-        }
-        .primary-color.background {
-            background-color: #444
-        }
-        .secondary-color.text {
-            color: #444
-        }
-        .secondary-color.fill {
-            fill: #444
-        }
-        .secondary-color.stroke {
-            stroke: #444
-        }
-        .secondary-color.background {
-            background-color: #444
-        }
-        .terciary-color.text {
-            color: #999
-        }
-        .terciary-color.fill {
-            fill: #999
-        }
-        .terciary-color.background {
-            background-color: #999
-        }
-        .terciary-color.stroke {
-            stroke: #999
-        }
-        html {
-            font-size: 80%
-        }
-        body {
-            background-color: transparent
-        }
-        svg {
-            display: block;
-            max-height: 150px
-        }
-        hr {
-            height: 0;
-            border-bottom: 1px solid #444
-        }
-        .headline {
-            padding: 10px
-        }
-        ul.sections-list {
-            margin-bottom: 15px
-        }
-        .languages {
-            margin-bottom: 30px
-        }
-        .languages .item {
-            height: 10px
-        }
-        .languages .language-name {
-            margin-bottom: 5px
-        }
-        .languages .level-bar {
-            margin-top: 5px
+            margin-left: 0%
         }
     }
-
-    * {
+    
+    body,
+    html {
         margin: 0;
         font-family: 'Overpass', sans-serif;
         font-size: 1rem;
         font-weight: 300
     }
-
+    
+    footer.trampos-co {
+        padding-top: 50px
+    }
+    
     h1 {
         font-size: 2.8rem;
         margin: 0;
         font-weight: 200
     }
-
+    
     h2 {
         font-size: 1.2rem;
         margin: 0;
         font-weight: 300
     }
-
+    
     h3 {
         font-size: 1rem;
         margin: 0;
         font-weight: 300
     }
-
+    
     h3.title {
         line-height: 30px;
         font-size: 1rem;
         text-transform: uppercase;
         font-weight: 500
     }
-
+    
     p {
         margin: 5px auto
     }
-
+    
     a {
         text-decoration: none
     }
-
+    
     a:hover {
         text-decoration: underline
     }
-
+    
     .url a {
         font-size: .9rem
     }
-
+    
     .subtitle {
         font-weight: 600;
         max-width: 600px;
         margin: auto;
         margin-bottom: 10px
     }
-
+    
     .short-bio {
-        padding: 15px 10%;
+        padding: 15px 40px;
         font-size: 1.1rem;
         line-height: 1.5rem;
         font-style: italic;
         display: inline-block;
         text-align: left;
-        margin-bottom: 20px
+        margin-bottom: 20px;
+        opacity: .8;
     }
-
+    
+    .short-bio:hover {
+        opacity: 1;
+    }
+    
+    #social {
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+        padding-left: 0;
+        margin: 30px 25px 20px;
+    }
+    
     hr {
         height: 1px;
         border: 0;
@@ -353,159 +301,172 @@
         margin-bottom: 10px;
         opacity: .1
     }
-
+    
     ul.sections-list {
         margin: 0;
         padding: 0;
         margin-bottom: 30px
     }
-
+    
     ul.sections-list li {
         margin: 0;
         list-style-type: none;
         padding: 0
     }
-
-    .center-center {
-        text-align: center;
-    }
-
+    
     .headline {
         padding: 10px;
         padding-top: 40px
     }
-
+    
     .experiences .item {
         padding-top: 6px;
         clear: both
     }
-
+    
     .experiences .item:first-child {
         padding-top: 0
     }
-
+    
     .experiences .position-name {
         margin: 0;
         font-size: 1rem
     }
-
+    
     .experiences .company-name {
         margin: 0;
         margin-bottom: 10px;
         font-size: 1rem;
         opacity: .5
     }
-
+    
     .experiences .position {
         margin: 0
     }
-
+    
     .educations .item {
         padding-top: 6px;
         clear: both
     }
-
+    
     .educations .item:first-child {
         padding-top: 0
     }
-
+    
     .educations .college-name {
         margin: 0;
         opacity: .7
     }
-
+    
     .educations .course {
         margin: 0;
         margin-bottom: 10px;
         font-size: 1rem
     }
-
+    
     .languages {
         position: relative;
-        margin-bottom: 50px
+        margin-bottom: 50px !important
     }
-
+    
     .languages .item {
         padding-top: 30px;
         clear: both;
         height: 28px
     }
-
+    
     .languages .item:first-child {
         padding-top: 0
     }
-
+    
     .languages .language-name {
-        max-width: 260px;
+        max-width: 100%;
         margin: 0 auto;
         font-size: 1rem;
         margin-bottom: 7px
     }
-
+    
     .languages .language-name .level {
         opacity: .7
     }
-
+    
     .languages .level-bar {
         margin: 0 auto;
         display: block;
         width: 100%;
-        max-width: 260px;
+        max-width: 100%;
         font-size: 0;
         height: 10px;
         margin-top: 10px
     }
-
+    
     .languages .certification {
         margin: 2px
     }
-
+    
     .links .item {
         padding-top: 6px;
         clear: both
     }
-
+    
     .links .item:first-child {
         padding-top: 0
     }
-
+    
     .links .title {
         margin: 0
     }
-
+    
     .links .link {
         margin: 0;
         font-size: .9rem
     }
-
+    
     .awards .item {
         padding-top: 6px;
         clear: both
     }
-
+    
     .awards .item:first-child {
         padding-top: 0
     }
-
+    
+    #languages,
+    #educations,
+    #experiences,
+    #links,
+    #more-info {
+        height: 100%;
+        opacity: .8;
+    }
+    
+    #languages:hover,
+    #educations:hover,
+    #experiences:hover,
+    #links:hover,
+    #more-info:hover {
+        opacity: 1;
+    }
+    
     .awards .award-name {
         margin: 0;
         font-size: 1rem
     }
-
+    
     .skills {
         margin-bottom: 30px
     }
-
+    
     .skills .item {
         margin-bottom: 30px;
         text-align: center
     }
-
+    
     .skills .item .skill {
         width: 100%;
         position: relative
     }
-
+    
     .skills .item .skill .skill-name {
         position: absolute;
         width: 110px;
@@ -515,40 +476,46 @@
         margin-left: -55px;
         text-align: center
     }
-
+    
     .skills .item .skill .skill-name .v-table {
         display: table;
         width: 100%;
         height: 100%
     }
-
+    
     .skills .item .skill .skill-name .v-table .v-cell {
         display: table-cell;
         vertical-align: middle
     }
-
+    
+    .skill:hover >.skill-name,
+    .skill:hover .secondary-color.stroke {
+        font-size: 20px;
+        stroke: rgb(73, 91, 241);
+    }
+    
     .more-info .item {
         padding-bottom: 6px
     }
-
+    
     .more-info .fa {
         margin-right: 2px
     }
-
+    
     .availabilities .item {
         padding-top: 6px
     }
-
+    
     .availabilities .item:first-child {
         padding-top: 0
     }
-
+    
     .share,
     .get-in-touch {
         padding: 0;
         padding-top: 15px
     }
-
+    
     .share ul,
     .share li {
         margin: 0;
@@ -556,15 +523,15 @@
         padding: 0;
         display: inline-block
     }
-
+    
     .share li {
         margin: 5px 2px
     }
-
+    
     .share .fa {
         font-size: 1.8rem
     }
-
+    
     .get-in-touch ul,
     .get-in-touch li {
         margin: 0;
@@ -573,7 +540,6 @@
         margin-top: 5px
     }
     </style>
-    <!--SVG JavaScript-->
     <script type="text/javascript">
     function languageBarChart(t) {
         var e = "http://www.w3.org/2000/svg",
@@ -690,26 +656,27 @@
 
     ();
     </script>
-    <!--Custom CSS-->
     <style>
+    /*---Colors-theme---*/
+    
     @media screen {
         .primary-color.text {
-            color: #7e827a;
+            color: #495bf1;
         }
         .primary-color.fill {
-            fill: #7e827a;
+            fill: #495bf1;
         }
         .primary-color.background {
-            background-color: #7e827a;
+            background-color: #495bf1;
         }
         .secondary-color.text {
-            color: #5c3e52;
+            color: #495bf1;
         }
         .secondary-color.fill {
             fill: #ab444d;
         }
         .secondary-color.stroke {
-            stroke: #5c3e52;
+            stroke: rgba(73, 91, 241, 0.57);
         }
         .secondary-color.background {
             background-color: #ab444d;
@@ -724,14 +691,14 @@
             background-color: #575966;
         }
         .terciary-color.stroke {
-            stroke: #7e827a;
+            stroke: rgba(73, 91, 241, 0.22);
         }
         .links {
-            color: #7e827a;
+            color: #495bf1;
             text-decoration: none;
         }
         .links:hover {
-            color: #5c3e52;
+            color: #495bf1;
             text-decoration: none;
         }
         /*scrollbar*/
@@ -740,12 +707,18 @@
             width: 0.5em;
         }
         ::-webkit-scrollbar-thumb {
-            background: #5c3e52;
-            ;
+            background: #495bf1;
         }
         ::-webkit-scrollbar-track {
-            background: #eee;
+            background: rgba(73, 91, 241, 0.22);
         }
+        body {
+            background-color: #fff;
+        }
+    }
+    
+    body {
+        font-family: 'Montserrat', sans-serif;
     }
     </style>
 </head>
@@ -755,18 +728,10 @@
         <div id="content">
             <div class="primary-color text">
                 <section class="row headline">
-                    <div class="small-2 large-9 col name center-center">
-                        <h1 id="cname">Lorem ipsum.</h1>
-                        <h2 class="subtitle secondary-color text">Lorem ipsum dolor.</h2>
-                        <p>lorem, Brazil</p>
-                        <p>
-                            <br />
-                            <a href="#" title="Github" class="fa fa-github-square fa-2x links"></a>
-                            <a href="#" title="LinkedIn" class="fa fa-linkedin-square fa-2x links"></a>
-                            <a href="#" title="Twitter" class="fa fa-twitter-square fa-2x links"></a>
-                            <a href="#" title="Facebook" class="fa fa-facebook-square fa-2x links"></a>
-                            <a href="#" title="Gmail" class="fa fa-envelope-square fa-2x links"></a>
-                        </p>
+                    <div class="small-2 large-9 col name" style="text-align:center;">
+                        <h1 id="cname">John doe</h1>
+                        <h2 class="subtitle secondary-color text">Developer</h2>
+                        <p>Kansas City</p>
                     </div>
                 </section>
                 <section class="row">
@@ -774,10 +739,10 @@
                         <hr class="primary-color background" />
                     </div>
                 </section>
-                <section class="row bio" style="margin-bottom:20px;">
+                <section class="row" style="margin-bottom:20px;">
                     <div class="small-2 large-9 col">
                         <p class="short-bio" style="">
-                            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni obcaecati ducimus sint dicta, ipsa laborum nesciunt assumenda illum aspernatur ab, dolor nam eos repellendus hic maxime iusto perspiciatis pariatur voluptates."
+                            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos dicta, minima iure accusamus iusto fugit, minus, atque autem eum eius explicabo voluptate earum eveniet corporis sunt! Est velit, magnam! At soluta numquam ad dolor cum excepturi eligendi deleniti, enim, ducimus ipsa provident distinctio nihil, neque. Sapiente cum, aspernatur inventore voluptatem minima "
                         </p>
                     </div>
                 </section>
@@ -920,94 +885,291 @@
                                 skill.insertBefore(pieChart(70, 150), skill.childNodes[0]);
                                 </script>
                             </div>
-
+                            <div class="small-1 large-3 col item">
+                                <div class="skill" id="skill-9">
+                                    <span class="skill-name">
+                            <span class="v-table">
+                                <span class="v-cell">
+                                    PHP
+                                </span>
+                                    </span>
+                                    </span>
+                                </div>
+                                <script>
+                                var skill = document.getElementById("skill-9");
+                                skill.insertBefore(pieChart(60, 150), skill.childNodes[0]);
+                                </script>
+                            </div>
+                            <div class="small-1 large-3 col item">
+                                <div class="skill" id="skill-10">
+                                    <span class="skill-name">
+                            <span class="v-table">
+                                <span class="v-cell">
+                                    Front-end Magento
+                                </span>
+                                    </span>
+                                    </span>
+                                </div>
+                                <script>
+                                var skill = document.getElementById("skill-10");
+                                skill.insertBefore(pieChart(85, 150), skill.childNodes[0]);
+                                </script>
+                            </div>
+                            <div class="small-1 large-3 col item">
+                                <div class="skill" id="skill-11">
+                                    <span class="skill-name">
+                            <span class="v-table">
+                                <span class="v-cell">
+                                    WordPress
+                                </span>
+                                    </span>
+                                    </span>
+                                </div>
+                                <script>
+                                var skill = document.getElementById("skill-11");
+                                skill.insertBefore(pieChart(75, 150), skill.childNodes[0]);
+                                </script>
+                            </div>
+                            <div class="small-1 large-3 col item">
+                                <div class="skill" id="skill-12">
+                                    <span class="skill-name">
+                            <span class="v-table">
+                                <span class="v-cell">
+                                   Angular JS
+                                </span>
+                                    </span>
+                                    </span>
+                                </div>
+                                <script>
+                                var skill = document.getElementById("skill-12");
+                                skill.insertBefore(pieChart(55, 150), skill.childNodes[0]);
+                                </script>
+                            </div>
+                            <div class="small-1 large-3 col item">
+                                <div class="skill" id="skill-13">
+                                    <span class="skill-name">
+                            <span class="v-table">
+                                <span class="v-cell">
+                                    Ionic
+                                </span>
+                                    </span>
+                                    </span>
+                                </div>
+                                <script>
+                                var skill = document.getElementById("skill-13");
+                                skill.insertBefore(pieChart(65, 150), skill.childNodes[0]);
+                                </script>
+                            </div>
+                            <div class="small-1 large-3 col item">
+                                <div class="skill" id="skill-14">
+                                    <span class="skill-name">
+                            <span class="v-table">
+                                <span class="v-cell">
+                                    React JS
+                                </span>
+                                    </span>
+                                    </span>
+                                </div>
+                                <script>
+                                var skill = document.getElementById("skill-14");
+                                skill.insertBefore(pieChart(40, 150), skill.childNodes[0]);
+                                </script>
+                            </div>
                         </div>
                     </div>
                     <div class="small-2 large-3 col">
                         <div class="row">
                             <div class="small-2 large-9 col">
-                                <a id="languages"></a>
-                                <h3 class="title primary-color text border small-align-left">Languages</h3>
-                                <hr class="primary-color background" />
-                                <ul class="sections-list languages">
-                                    <li class="item primary-color text" id="language-0">
-                                        <h2 class="language-name">
-                                            Lorem ipsum.
-                                                . <span class="level">Native or bilingual proficiency</span>
-                                        </h2>
-                                    </li>
-                                    <script>
-                                    var language = document.getElementById("language-0");
-                                    language.insertBefore(languageBarChart("native_or_bilingual"), null);
-                                    </script>
-                                    <br>
-                                    <li class="item primary-color text" id="language-1">
-                                        <h2 class="language-name">
+                                <div id="languages">
+                                    <h3 class="title primary-color text border small-align-left">Languages</h3>
+                                    <hr class="primary-color background" />
+                                    <ul class="sections-list languages">
+                                        <li class="item primary-color text" id="language-0">
+                                            <h2 class="language-name">
                                             English
-                                                . <span class="level">Professional working proficiency</span>
+                                                <span class="level">Native</span>
                                         </h2>
-                                    </li>
-                                    <script>
-                                    var language = document.getElementById("language-1");
-                                    language.insertBefore(languageBarChart("full_professional"), null);
-                                    </script>
-                                </ul>
-                                <a id="educations"></a>
-                                <h3 class="title primary-color text border small-align-left">Education</h3>
-                                <hr class="primary-color background" />
-                                <ul class="sections-list educations">
-                                    <li class="item primary-color text">
-                                        <h2 class="course" style="display:inline;">
-                                            Lorem ipsum dolor sit.
+                                        </li>
+                                        <script>
+                                        var language = document.getElementById("language-0");
+                                        language.insertBefore(languageBarChart("native_or_bilingual"), null);
+                                        </script>
+                                        <br>
+                                        <li class="item primary-color text" id="language-1">
+                                            <h2 class="language-name">
+                                            Spanish
+                                                <span class="level">Professional</span>
                                         </h2>
-                                        <br>
-                                        <h3 class="college-name primary-color text" style="display:inline;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum tenetur debitis eveniet ipsum placeat sunt iste error temporibus nihil amet. Nam, veniam, alias?</h3>
-                                    </li>
-                                </ul>
-                                <a id="experiences"></a>
-                                <h3 class="title primary-color text border small-align-left">Experience</h3>
-                                <hr class="primary-color background" />
-                                <ul class="sections-list experiences">
-                                    <li class="item primary-color text">
-                                        <h2 class="position-name" style="display:inline;">Lorem ipsum dolor sit.</h2>:
-                                        <br>
-                                        <h3 class="company-name primary-color text" style="display:inline;">Lorem ipsum.</h3>
-                                    </li>
-                                    <li class="item primary-color text">
-                                        <h2 class="position-name" style="display:inline;">Lorem ipsum dolor.</h2>:
-                                        <br>
-                                        <h3 class="company-name primary-color text" style="display:inline;">Lorem ipsum dolor sit amet.</h3>
-                                    </li>
-                                </ul>
-                                <a id="links"></a>
-                                <h3 class="title">Project</h3>
-                                <hr class="primary-color background" />
-                                <ul class="sections-list links">
-                                    <li class="item">
-                                        <h3 class="link"><i class="fa fa-desktop"></i> <a href="Lorem ipsum dolor." target="_blank" class="secondary-color text">lorem</a></h3>
-                                    </li>
-                                    <li class="item">
-                                        <h3 class="link"><i class="fa fa-desktop"></i> <a href="" target="_blank" class="secondary-color text">Lorem ipsum dolor sit.</a></h3>
-                                    </li>
-
-
-                                </ul>
-                                <a id="more-info"></a>
-                                <h3 class="title">other Information</h3>
-                                <hr class="primary-color background" />
-                                <ul class="sections-list more-info">
-                                    <li class="item">
-                                        <i class='fa fa-fw fa-plane secondary-color text'></i>  Lorem ipsum dolor..
-                                    </li>
-                                    <li class="item">
-                                        <i class='fa fa-fw fa-skype secondary-color text'></i> Lorem ipsum dolor..
-                                    </li>
-                                    <li class="item">
-                                        <i class='fa fa-fw fa-dollar secondary-color text'></i> Lorem ipsum dolor sit amet.
-                                    </li>
-                                </ul>
+                                        </li>
+                                        <script>
+                                        var language = document.getElementById("language-1");
+                                        language.insertBefore(languageBarChart("full_professional"), null);
+                                        </script>
+                                    </ul>
+                                </div>
+                                <div id="educations">
+                                    <h3 class="title primary-color text border small-align-left">Educations</h3>
+                                    <hr class="primary-color background" />
+                                    <ul class="sections-list educations">
+                                        <li class="item primary-color text">
+                                            <h2 class="course" style="display:inline;">
+                                            Lorem ipsum dolor.
+                                        </h2>
+                                            <br>
+                                            <h3 class="college-name primary-color text" style="display:inline;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam enim iusto, provident velit.</h3>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div id="experiences">
+                                    <h3 class="title primary-color text border small-align-left">Experiences</h3>
+                                    <hr class="primary-color background" />
+                                    <ul class="sections-list experiences">
+                                        <li class="item primary-color text">
+                                            <h2 class="position-name" style="display:inline;">Awesome Developer</h2>:
+                                            <br>
+                                            <h3 class="company-name primary-color text" style="display:inline;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, ratione.</h3>
+                                        </li>
+                                        <li class="item primary-color text">
+                                            <h2 class="position-name" style="display:inline;">Awesome Developer</h2>:
+                                            <br>
+                                            <h3 class="company-name primary-color text" style="display:inline;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque dolores ipsum in!</h3>
+                                        </li>
+                                        <li class="item primary-color text">
+                                            <h2 class="position-name" style="display:inline;">Awesome Developer</h2>:
+                                            <br>
+                                            <h3 class="company-name primary-color text" style="display:inline;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, vel, impedit.</h3>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div id="links">
+                                    <h3 class="title">Last Projects</h3>
+                                    <hr class="primary-color background" />
+                                    <ul class="sections-list links">
+                                        <li class="item">
+                                            <h3 class="link"><i class="fa fa-desktop"></i> <a href="#" target="_blank" class="secondary-color text">Lorem.com</a></h3>
+                                        </li>
+                                        <li class="item">
+                                            <h3 class="link"><i class="fa fa-desktop"></i> <a href="#" target="_blank" class="secondary-color text">Lorem.com</a></h3>
+                                        </li>
+                                        <li class="item">
+                                            <h3 class="link"><i class="fa fa-desktop"></i> <a href="#" target="_blank" class="secondary-color text">Lorem.com</a></h3>
+                                        </li>
+                                        <li class="item">
+                                            <h3 class="link"><i class="fa fa-desktop"></i> <a href="#" target="_blank" class="secondary-color text">Lorem.com</a></h3>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div id="more-info">
+                                    <h3 class="title">More Info</h3>
+                                    <hr class="primary-color background" />
+                                    <ul class="sections-list more-info">
+                                        <!--<li class="item">
+                                        <i class='fa fa-fw fa-plane secondary-color text'></i> dispon&iacute;vel para viagens.
+                                    </li>-->
+                                        <li class="item">
+                                            <i class='fa fa-fw fa-skype secondary-color text'></i> Job Remote.
+                                        </li>
+                                        <li class="item">
+                                            <i class='fa fa-fw fa-dollar secondary-color text'></i> Job freelancer.
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div>
+                                <h6 class="print">Press Ctrl + P to print !</h6>
                             </div>
                         </div>
+                        <style>
+                        @media print {
+                            .primary-color.text {
+                                color: #444
+                            }
+                            .primary-color.fill {
+                                fill: #444
+                            }
+                            .primary-color.background {
+                                background-color: #444
+                            }
+                            .secondary-color.text {
+                                color: #444
+                            }
+                            .secondary-color.fill {
+                                fill: #444
+                            }
+                            .secondary-color.stroke {
+                                stroke: #444
+                            }
+                            .secondary-color.background {
+                                background-color: #444
+                            }
+                            .terciary-color.text {
+                                color: #999
+                            }
+                            .terciary-color.fill {
+                                fill: #999
+                            }
+                            .terciary-color.background {
+                                background-color: #999
+                            }
+                            .terciary-color.stroke {
+                                stroke: #999
+                            }
+                            html {
+                                font-size: 80%
+                            }
+                            body {
+                                background-color: transparent !important
+                            }
+                            svg {
+                                display: block;
+                                max-height: 150px
+                            }
+                            hr {
+                                height: 0;
+                                border-bottom: 1px solid #444
+                            }
+                            .headline {
+                                padding: 10px
+                            }
+                            ul.sections-list {
+                                margin-bottom: 15px
+                            }
+                            .languages {
+                                margin-bottom: 30px !important
+                            }
+                            .languages .item {
+                                height: 10px
+                            }
+                            .languages .language-name {
+                                margin-bottom: 5px
+                            }
+                            .languages .level-bar {
+                                margin-top: 5px
+                            }
+                            .large-6 {
+                                padding: 0;
+                                width: 60%;
+                            }
+                            .large-3 {
+                                width: 33.3%;
+                            }
+                            .short-bio {
+                                margin-bottom: 0;
+                            }
+                            .skills .item .skill {
+                                width: 90%;
+                            }
+                            .skills .item .skill .skill-name {
+                                font-size: 8px !important;
+                            }
+                            h6 {
+                                display: none;
+                            }
+                            #social {
+                                display: none;
+                            }
+                        }
+                        </style>
                     </div>
                 </section>
             </div>
